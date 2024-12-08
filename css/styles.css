@@ -187,6 +187,13 @@ section.visible {
     margin: 2rem 0;
 }
 
+.os-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
 .service-card {
     background: var(--secondary);
     padding: 2rem;
@@ -262,6 +269,31 @@ section.visible {
     }
 }
 
+/* Simple Footer Styles */
+footer {
+    background: var(--bg);
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-contact {
+    margin-bottom: 1rem;
+    color: #8892b0;
+}
+
+.footer-contact a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #8892b0;
+    font-size: 0.9rem;
+}
 
 
 
