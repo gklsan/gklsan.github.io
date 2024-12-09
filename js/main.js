@@ -66,3 +66,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM is fully loaded');
+    window.scrollTo({
+        top: 1,
+        behavior: 'smooth'
+    });
+});
