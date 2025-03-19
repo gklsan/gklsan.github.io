@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html {
@@ -208,6 +209,10 @@ section.visible {
 .service-card h3 {
     color: var(--primary);
     margin-bottom: 1rem;
+}
+
+.service-card a:not(:first-child) {
+    padding-right: 1rem;
 }
 
 .social-icons {
