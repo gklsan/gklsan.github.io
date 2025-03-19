@@ -1,565 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gokul - Full Stack Developer</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-</head>
-<body>
-    <nav>
-        <div class="nav-content">
-            <a href="#" class="logo scroll-to-hero">GKLSAN</a>
-            <div class="nav-links">
-                <a href="#open-source">Open Source Contribution</a>
-                <a href="#skills">Skills</a>
-                <a href="#services">Services</a>
-                <a href="#blog">Blog</a>
-            </div>
-        </div>
-    </nav>
-
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="greeting">👋 Hi there, I'm</div>
-                    <h1>Gokul</h1>
-                    <p>A passionate full-stack web application developer from India with a decade of professional experience in building exceptional digital experiences.</p>
-					<p>I specialize in providing various solutions to clients incorporating applications and website development. My expertise includes debugging, software design, refactoring legacy code, and automating builds and deployments. I am one of the few experienced developers in industry-leading "Ruby on Rails," which includes requirement gathering, developing story, prioritizing, implementation, writing test cases with frameworks like Rspec, cucumber, and selenium, deployment, and gathering feedback from the client.</p>
-                    <div class="social-icons">
-                    	<a href="https://github.com/gklsan"><i class="fab fa-github"></i></a>
-			<a href="https://rubygems.org/profiles/gklsan"><i class="fas fa-gem"></i></a>
-                	<a href="https://gklsan.medium.com"><i class="fab fa-medium"></i></a>
-                	<a href="https://linkedin.com/in/gklsan"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://dev.to/gklsan"><i class="fab fa-dev"></i></a>
-                	<a href="mailto:gokul+blog@gklsan.in"><i class="fas fa-envelope"></i></a>
-                    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gokul - Full Stack Developer</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-content">
+                <a href="#" class="logo scroll-to-hero">GKLSAN</a>
+                <div class="nav-links">
+                    <!-- Navigation links will be populated from YAML -->
                 </div>
             </div>
-        </section>
+        </nav>
 
-		<section id="open-source">
-			<div class="container">
-				<h2 class="section-title">Open Source Contribution</h2>
-				<div class="os-services-grid">
-					<div class="service-card">
-						<a href="https://rubygems.org/gems/simple_http_service">
-							<h3>Simple Http Service</h3>
-							<a href="https://badge.fury.io/rb/simple_http_service">
-								<img src="https://badge.fury.io/rb/simple_http_service.svg?icon=si%3Arubygems" alt="Simple Http Service Gem Version" height="18">
-							</a>
-							<a href="https://rubygems.org/gems/simple_http_service">
-								<img src="https://img.shields.io/gem/dt/simple_http_service.svg" alt="Simple Http Service Gem Downloads" height="18">
-							</a>
-						</a>
-					</div>
-					<br/>
-
-					<div class="service-card">
-						<a href="https://rubygems.org/gems/remote_translation_loader">
-							<h3>Remote Translation Loader</h3>
-							<a href="https://badge.fury.io/rb/remote_translation_loader">
-								<img src="https://badge.fury.io/rb/remote_translation_loader.svg?icon=si%3Arubygems" alt="Remote Translation Loader Gem Version" height="18">
-							</a>
-							<a href="https://rubygems.org/gems/remote_translation_loader">
-								<img src="https://img.shields.io/gem/dt/remote_translation_loader.svg" alt="Remote Translation Loader Gem Downloads" height="18">
-							</a>
-						</a>
-					</div>
-					
-					<div class="service-card">
-						<a href="https://rubygems.org/gems/solid_callback">
-							<h3>Solid Callback</h3>
-							<a href="https://badge.fury.io/rb/solid_callback">
-								<img src="https://badge.fury.io/rb/solid_callback.svg?icon=si%3Arubygems" alt="Solid Callback Gem Version" height="18">
-							</a>
-							<a href="https://rubygems.org/gems/solid_callback">
-								<img src="https://img.shields.io/gem/dt/solid_callback.svg" alt="Solid Callback Gem Downloads" height="18">
-							</a>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-        <section id="skills">
-            <div class="container">
-                <h2 class="section-title">🛠️ Skills & Expertise</h2>
-                <div class="skills-grid">
-                    <div class="skill-tag">Ruby on Rails</div>
-                    <div class="skill-tag">Java</div>
-                    <div class="skill-tag">Spring Boot</div>
-                    <div class="skill-tag">ReactJS</div>
-					<div class="skill-tag">NodeJS</div>
-					<div class="skill-tag">JavaScript</div>
-					<div class="skill-tag">JQuery</div>
-					<div class="skill-tag">CoffeeScript</div>
-
-					<div class="skill-tag">MySQL</div>
-					<div class="skill-tag">PostgreSQL</div>
-
-					<div class="skill-tag">RSpec</div>
-                    <div class="skill-tag">Selenium</div>
-                    <div class="skill-tag">Cucumber</div>
-
-					<div class="skill-tag">HTML</div>
-                    <div class="skill-tag">CSS</div>
-                    <div class="skill-tag">SCSS</div>
-                    <div class="skill-tag">Bootstrap</div>
-
-					<div class="skill-tag">Docker</div>
-                    <div class="skill-tag">CircleCI</div>
-					<div class="skill-tag">Jenkins</div>
-					<div class="skill-tag">Heroku</div>
-					<div class="skill-tag">AWS</div>
-
-                    <div class="skill-tag">Agile</div>
-                    <div class="skill-tag">Scrum</div>
-
-					<div class="skill-tag">Github</div>
-                    <div class="skill-tag">Bitbucket</div>
-                    <div class="skill-tag">Jira</div>
-
-					<div class="skill-tag">NewRelic</div>
-					<div class="skill-tag">Datadog</div>
-                </div>
-            </div>
-        </section>
-
-        <section id="services">
-            <div class="container">
-                <h2 class="section-title">🚀 What I Do</h2>
-                <div class="os-services-grid">
-                    <div class="service-card">
-                        <h3>Web Development</h3>
-                        <p>Building responsive and user-friendly web applications.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Automation</h3>
-                        <p>Streamlining build and deployment processes.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Debugging & Refactoring</h3>
-                        <p>Improving and maintaining code quality.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Client Interaction</h3>
-                        <p>From requirement gathering to feedback incorporation.</p>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="greeting"><!-- Will be populated from YAML --></div>
+                        <h1><!-- Will be populated from YAML --></h1>
+                        <p><!-- Description 1 will be populated from YAML --></p>
+                        <p><!-- Description 2 will be populated from YAML --></p>
+                        <div class="social-icons">
+                            <!-- Social links will be populated from YAML -->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="blog">
-            <div class="container">
-                <h2 class="section-title">📚 Blog & Articles</h2>
-                <p>I regularly share my insights and experiences on Medium and Dev.to. Check out my articles and feel free to offer a coffee if you find them helpful!</p>
-                <div class="blog-services-grid">
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/building-a-todo-list-application-in-pure-ruby-a-comprehensive-guide-26655ad149d4">
-	                    	<h3>Building a Todo List Application in Pure Ruby: A Comprehensive Guide</h3>
-	                    </a>
-	                </div>
+            <section id="open-source">
+                <div class="container">
+                    <h2 class="section-title">Open Source Contribution</h2>
+                    <div class="os-services-grid">
+                        <!-- Open source projects will be populated from YAML -->
+                    </div>
+                </div>
+            </section>
 
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-helpers-part-4-750db2ee7c01">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Helpers — Part 4</h3>
-	                    </a>
-	                </div>
-                	
-                	<div class="service-card">
-	                    <a href="https://gklsan.medium.com/mastering-relational-database-design-an-in-depth-guide-for-developers-0bc90bab98ca">
-	                    	<h3>Mastering Relational Database Design: An In-Depth Guide for Developers</h3>
-	                    </a>
-	                </div>
+            <section id="skills">
+                <div class="container">
+                    <h2 class="section-title">🛠️ Skills & Expertise</h2>
+                    <div class="skills-grid">
+                        <!-- Skills will be populated from YAML -->
+                    </div>
+                </div>
+            </section>
 
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-helpers-part-3-599c9e3481f7">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Helpers — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-helpers-part-2-71fba9be9e51">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Helpers — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-helpers-part-1-680bbbe0463e">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Helpers — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-middleware-part-4-66d803a13b34">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Middleware — Part 4</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-middleware-part-3-4d6c6d74ba9d">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Middleware — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-middleware-part-2-9fd0850ac5e8">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Middleware — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-middleware-part-1-8cf09bc30cf2">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Middleware — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-4b20a4bd98e0">
-	                    	<h3>Ruby on Rails Interview Questions and Answers</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-migrations-part-4-1ee718b777a7">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Migrations — Part 4</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-migrations-part-3-9b9654af596e">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Migrations — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-migrations-part-2-42c83cb910a4">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Migrations — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-migrations-part-1-7b406f540c25">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Migrations — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-and-ruby-on-rails-productivity-tricks-content-caching-strategies-45c63e4908cc">
-	                    	<h3>Ruby and Ruby on Rails Productivity Tricks — Content Caching Strategies</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-view-part-4-dfa76282f497">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — View — Part 4</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-view-part-3-7bfe644d286b">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — View — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-view-part-2-e430b9c8ed11">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — View — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-view-part-1-2887c56d84be">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — View — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-controller-part-4-4f3fedd60835">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Controller — Part 4</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-controller-part-3-c7e898f62c94">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Controller — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-controller-part-2-bdb0e5748dc2">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Controller — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-controller-part-1-b9856eae7526">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Controller — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-model-part-4-33c052cb345e">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Model — Part 4</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-model-part-3-269b2499042e">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Model — Part 3</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-model-part-2-e5b1a368cdc9">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Model — Part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-interview-questions-and-answers-model-part-1-2f4b6a4381c9">
-	                    	<h3>Ruby on Rails Interview Questions and Answers — Model — Part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/deep-dive-into-ruby-concurrency-and-parallelism-execution-dae4713ec42">
-	                    	<h3>Deep Dive Into Ruby Concurrency and Parallelism Execution</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/become-a-rails-logger-pro-replicating-rails-logger-with-pure-ruby-8f6b4d8e1198">
-	                    	<h3>Become a Rails Logger Pro: Replicating Rails Logger with Pure Ruby</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-coding-interview-question-most-common-character-in-the-string-fec104fa14f9">
-	                    	<h3>Ruby Coding Interview Question: Most Common Character In The String</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-coding-interview-question-decimal-number-to-binary-ad80fb724465">
-	                    	<h3>Ruby on Rails Coding Interview Question: Decimal Number To Binary</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-coding-interview-question-url-shortener-application-4a2274085cd2">
-	                    	<h3>Ruby on Rails Coding Interview Question: URL Shortener Application</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-coding-interview-question-find-the-greatest-common-divisor-gcd-of-two-numbers-97cc7b7c166e">
-	                    	<h3>Ruby Coding Interview Question: Find the Greatest Common Divisor (GCD) of Two Numbers</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-coding-interview-question-find-the-second-largest-number-in-an-array-99e66eb3edcc">
-	                    	<h3>Ruby on Rails Coding Interview Question: Find the Second Largest Number in an Array</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-on-rails-coding-interview-question-reverse-a-string-18835d269349">
-	                    	<h3>Ruby on Rails Coding Interview Question: Reverse a String</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/become-a-rails-background-job-pro-replicating-active-jobs-with-pure-ruby-df708a85cd42">
-	                    	<h3>Become a Rails Background Job Pro: Replicating Active Jobs with Pure Ruby</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/become-a-rails-association-pro-replicating-has-many-with-pure-ruby-3c1a8c2026ba">
-	                    	<h3>Become a Rails Association Pro: Replicating has_many with Pure Ruby</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/replicate-ruby-on-rails-has-one-association-with-pure-ruby-2c3be659bbbe">
-	                    	<h3>Become a Rails Association Pro: Replicating has_one with Pure Ruby</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/rspec-shared-examples-with-ruby-on-rails-67af63671fb2">
-	                    	<h3>RSpec Shared Examples with Ruby on Rails</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/brakeman-with-ruby-on-rails-1bdaf71a6aae">
-	                    	<h3>Brakeman with Ruby on Rails</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/active-model-serializer-with-ruby-on-rails-ffb171663790">
-	                    	<h3>Active Model Serializer With Ruby on Rails</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/git-hooks-with-ruby-on-rails-part-2-793a73a44a4a">
-	                    	<h3>Git Hooks with Ruby on Rails — part 2</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/git-hooks-with-ruby-on-rails-part-1-8863e1b1c7fd">
-	                    	<h3>Git Hooks with Ruby on Rails — part 1</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/circleci-with-ruby-on-rails-87afc2b9de13">
-	                    	<h3>CircleCI with Ruby on Rails</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/rubocop-with-ruby-on-rails-a77b4cf3060">
-	                    	<h3>Rubocop with Ruby on Rails</h3>
-	                    </a>
-	                </div>
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/fixtures-in-ruby-on-rails-with-rspec-99521f46d59c">
-	                    	<h3>Fixtures in Ruby on Rails with RSpec</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/rescue-from-with-ruby-on-rails-2d2aa4445804">
-	                    	<h3>rescue_from with Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/redis-with-ruby-on-rails-8c122ee0606d">
-	                    	<h3>Redis with Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/simplecov-gem-with-ruby-on-rails-9eb07b39bb77">
-	                    	<h3>Simplecov Gem with Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/graphql-with-ruby-on-rails-dd027098802e">
-	                    	<h3>GraphQL with Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/keep-calm-and-think-about-logentries-with-ruby-on-rails-3f894aad9a6f">
-	                    	<h3>Keep Calm And Think About Logentries with Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/the-ugly-truth-about-meta-programming-in-ruby-on-rails-9cd4d6567011">
-	                    	<h3>The Ugly Truth About Meta-Programming in Ruby on Rails</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/repeatedly-used-ruby-on-rails-gems-5bbf36c8d8f6">
-	                    	<h3>Most Used Ruby on Rails Gems</h3>
-	                    </a>
-	                </div>	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/group-multiple-console-statements-in-javascript-a9e57fd744e6">
-	                    	<h3>Group Multiple Console Statements In JavaScript</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/how-to-get-the-opposite-binary-11d4d7aca293">
-	                    	<h3>How To Get The Opposite Binary</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/twitter-search-application-in-ruby-on-rails-9895c9f652f4">
-	                    	<h3>Twitter Search Application In Ruby on Rails</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/frequently-used-active-support-methods-in-ruby-on-rails-part-3-156b7d816a7">
-	                    	<h3>Frequently used Active Support Methods in Ruby on Rails — Part 3</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-and-ruby-on-rails-productivity-tricks-part-1-6215c6561b28">
-	                    	<h3>Ruby and Ruby on Rails Productivity Tricks - part 1</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/find-the-first-non-repeated-character-in-a-string-in-ruby-d844087f268e">
-	                    	<h3>Find the first non-repeated character in a String in ruby</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/frequently-used-active-support-methods-in-ruby-on-rails-part-2-2054c1ec0e7f">
-	                    	<h3>Frequently used Active Support Methods in Ruby on Rails — Part 2</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/frequently-used-active-support-methods-in-ruby-on-rails-part-1-d8ca6f8627d8">
-	                    	<h3>Frequently used Active Support Methods in Ruby on Rails — Part 1</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/remove-duplicate-element-from-an-array-in-ruby-aca65d9a6498">
-	                    	<h3>Remove Duplicate Element From an Array in Ruby</h3>
-	                    </a>
-	                </div>	 	    
-	                
-	                <div class="service-card">
-	                    <a href="https://gklsan.medium.com/ruby-singleton-pattern-to-read-file-content-from-various-type-of-file-a23573d590db">
-	                    	<h3>Ruby Singleton Pattern to Read File Content From Various Type of File</h3>
-	                    </a>
-	                </div>	               
+            <section id="services">
+                <div class="container">
+                    <h2 class="section-title">🚀 What I Do</h2>
+                    <div class="os-services-grid">
+                        <!-- Services will be populated from YAML -->
+                    </div>
+                </div>
+            </section>
 
-	            </div>
-            </div>
-        </section>
+            <section id="blog">
+                <div class="container">
+                    <h2 class="section-title">📚 Blog & Articles</h2>
+                    <p><!-- Blog intro will be populated from YAML --></p>
+                    <div class="blog-services-grid">
+                        <!-- Blog articles will be populated from YAML -->
+                    </div>
+                </div>
+            </section>
 
-		<footer>
-			<div class="container">
-				<div class="footer-content">
-					<p class="copyright">
-						© 2025 Gokul. All rights reserved.
-					</p>
-				</div>
-			</div>
-		</footer>
-    </main>
+            <footer>
+                <div class="container">
+                    <div class="footer-content">
+                        <p class="copyright">
+                            <!-- Copyright text will be populated from YAML -->
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </main>
 
-    <button class="scroll-to-top" aria-label="Scroll to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <button class="scroll-to-top" aria-label="Scroll to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
 
-    <script src="js/main.js"></script>
-</body>
+        <script src="js/yaml-loader.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
