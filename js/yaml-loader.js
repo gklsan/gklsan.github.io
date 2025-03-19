@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Populate footer
     populateFooter(content.footer);
+
+    // Setup scroll highlighting after everything is populated
+    setupScrollHighlighting();
     
   } catch (error) {
     console.error('Error loading YAML data:', error);
@@ -188,4 +191,44 @@ function populateFooter(footerData) {
   
   const copyrightEl = document.querySelector('.footer-content .copyright');
   if (copyrightEl) copyrightEl.textContent = footerData.copyright;
+}
+
+function setupScrollHighlighting() {
+  // Get all sections that should be tracked for scrolling
+  const sections = Array.from(document.querySelectorAll('section[id]'));
+
+  // Get all navigation links
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  // Function to handle scroll events
+  function handleScroll() {
+    // Get current scroll position
+    const scrollPosition = window.scrollY + 100; // Adding offset for better UX
+
+    // Check which section is currently in view
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+      const sectionId = section.getAttribute('id');
+
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        // Remove active class from all links
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+        });
+
+        // Add active class to the link that matches the current section
+        const activeLink = document.querySelector(`.nav-links a[href="#${sectionId}"]`);
+        if (activeLink) {
+          activeLink.classList.add('active');
+        }
+      }
+    });
+  }
+
+  // Add scroll event listener
+  window.addEventListener('scroll', handleScroll);
+
+  // Call handleScroll initially to set the active link on page load
+  handleScroll();
 }
