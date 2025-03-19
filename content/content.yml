@@ -1,5 +1,7 @@
 # Navigation links
 navigation:
+  - text: About Me
+    href: "#about-me"
   - text: Open Source Contribution
     href: "#open-source"
   - text: Skills
