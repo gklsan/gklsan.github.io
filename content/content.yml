@@ -99,6 +99,14 @@ services:
 blog:
   intro: I regularly share my insights and experiences on Medium and Dev.to. Check out my articles and feel free to offer a coffee if you find them helpful!
   articles:
+    - title: 'GitHub Actions for Ruby on Rails: A Complete Guide'
+      href: https://gklsan.medium.com/github-actions-for-ruby-on-rails-a-complete-guide-26ff098b8fd2
+    - title: 'AI Agents: The Next Generation of Digital Assistants'
+      href: https://gklsan.medium.com/ai-agents-the-next-generation-of-digital-assistants-39b9fd8180e5
+    - title: 'How to Change Git Commit Author Information for All Commits: A Complete Guide'
+      href: https://gklsan.medium.com/how-to-change-git-commit-author-information-for-all-commits-a-complete-guide-29c954e8319d
+    - title: The Magic Behind Ruby’s Recursive Hash Defaults
+      href: https://gklsan.medium.com/the-magic-behind-rubys-recursive-hash-defaults-a9f726b53b2f
     - title: 'Building a Todo List Application in Pure Ruby: A Comprehensive Guide'
       href: https://gklsan.medium.com/building-a-todo-list-application-in-pure-ruby-a-comprehensive-guide-26655ad149d4
     - title: Ruby on Rails Interview Questions and Answers — Helpers — Part 4
